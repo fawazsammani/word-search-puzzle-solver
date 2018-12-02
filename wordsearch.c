@@ -14,9 +14,11 @@ int serch4(int a ,int n, int b,char test[]);
 int serch5(int a ,int n, int b,char test[]);
 int serch6(int a ,int n, int b,char test[]);
 int serch7(int a ,int n, int b,char test[]);
+
 char word[30][30];
 char puzzle[40][40];
 int p , h ;
+
 int main(){
     system("COLOR 4F");
     coverPage();
@@ -25,7 +27,9 @@ int main(){
     printf("Try First!\n\nThese are the words:\n\n");
     readWords();
     game();
-return 0 ; }
+return 0 ; 
+}
+
 void openFile (){
 FILE *fp;
 fp= fopen("file.txt","r");
@@ -44,7 +48,8 @@ fscanf(fp, "%d %d",&p, &h);
     while (fgets(line2, sizeof(line2), fp) !=NULL){
     for(i=0; i<(strlen(line2)-1); i++){
         word[rows][i] = line2[i];}
-        rows++; }
+        rows++; 
+    }
 }
             void readData (){
                 int i=0 ;
