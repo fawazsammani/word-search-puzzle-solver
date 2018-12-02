@@ -6,7 +6,10 @@ A word search is a popular word game that consists of the letters of words place
 
 # Sample File
 </br>
-`file.txt` is the input to the program. It has the following structure:
-           - The size of the puzzle and number of hidden words to be found (in one line)
-- The puzzle
-- The list of hidden words
+`file.txt` is the input to the program. 
+</br>
+
+It has the following structure:
+     - The size of the puzzle and number of hidden words to be found (in one line)
+     - The puzzle
+     - The list of hidden words
