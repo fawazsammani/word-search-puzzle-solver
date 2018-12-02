@@ -232,18 +232,7 @@ int serch7(int a ,int n, int b,char test[]){
 	return -1 ;
 }
 void coverPage (){
-  printf (" ========================================================\n");
-  printf ("                             Multimedia University\n\n");
-
-  printf ("                               ECP 1026 Assignment \n");
-  printf ("                           Solver for a Wordsearch Puzzle\n");
-  printf ("                               Trimester 2 2015/16\n\n");
-  printf ("   Student name               ID               Majoring\n"  );
-  printf ("===================      ================    ===============\n");   
-  printf ("      FAWAZ SAMMANI         1141125332	          RE       \n");	              
-  printf ("      ABDELSALAM HAMDI      1141326638	          TEL	   \n");             
-  printf ("      MAHMOUD EL SAYED      1141326457	          RE 	   \n");  
-  printf (" ========================================================\n");
+  printf (" ==================WELCOME============================\n");
   printf ("\n Press any key to continue ...\n");
   getchar ();
   system("cls");
