@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+
 void openFile();
 void readData();
 void game();
