@@ -12,3 +12,6 @@ It has the following structure:
 - The size of the puzzle and number of hidden words to be found (in one line)
 - The puzzle
 - The list of hidden words
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
