@@ -8,8 +8,7 @@ A word search is a popular word game that consists of the letters of words place
 </br>
 `file.txt` is the input to the program. 
 </br>
-</br>
-**It has the following structure:
--The size of the puzzle and number of hidden words to be found (in one line)
--The puzzle
--The list of hidden words
+**It has the following structure:**
+- The size of the puzzle and number of hidden words to be found (in one line)
+- The puzzle
+- The list of hidden words
